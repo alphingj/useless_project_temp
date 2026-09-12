@@ -2,7 +2,39 @@
 
 **KudumbaSree AI** is a maximalist, comedic Kerala neighborhood-gossip meeting simulator. Enter one name and watch five fictional Malayali aunties roast an ordinary harmless incident until it becomes a full committee investigation.
 
-Live demo: **https://uselessai-dusky.vercel.app**
+Live demo: **https://uselessprojecttemp-rosy.vercel.app**
+
+## Basic Details
+
+### Team Name
+
+**The Ficks**
+
+### Team Members
+
+1. **Astel Jojy** — Team Lead
+2. **Alphin George Joseph**
+
+## Project Description
+
+KudumbaSree AI is a maximalist parody of a Kerala neighborhood gossip meeting. Enter one name and five fictional Malayali aunties turn a harmless everyday incident into an unnecessarily serious investigation, complete with interruptions, roast commentary, unsolicited advice, and a final committee verdict.
+
+## The Problem That Does Not Exist
+
+Important questions are being ignored in our neighborhoods:
+
+- Why did someone look at a tea cup for three seconds?
+- Why did they type on WhatsApp and never send the message?
+- Why did they choose that plastic chair?
+- Why are banana chips suddenly a matter of public debate?
+
+No ordinary system was available to overanalyse these harmless incidents with enough confidence, drama, and completely unnecessary committee involvement.
+
+## The Solution Nobody Asked For
+
+We built an AI-style virtual Kudumbashree meeting that turns one name and one tiny observation into a full gossip case file. Five aunties build on the same incident, interrupt each other, disagree with total confidence, give advice nobody requested, and eventually forget the original topic.
+
+The app keeps the roast connected while randomly changing the incident, conversation arc, reactions, and verdict. It is loud, fictional, safe, and proudly unnecessary.
 
 ## The Experience
 
@@ -66,7 +98,20 @@ The interface uses a Kerala-pop maximalist visual language:
 - Dense visual hierarchy without hiding the input or transcript.
 - Responsive single-column collapse on mobile.
 
-## Tech Stack
+## Technical Details
+
+### Technologies/Components Used
+
+#### For Software
+
+- **Languages:** JavaScript, JSX, CSS, HTML
+- **Frameworks:** React 19, Vite
+- **Libraries:** React DOM
+- **Deployment:** Vercel
+- **Runtime:** Node.js and npm
+- **AI-style generation:** Local client-side phrase banks, shared gossip case generation, and randomized conversation arcs
+
+### Tech Stack
 
 - React 19
 - Vite
@@ -146,6 +191,18 @@ The meeting also randomly chooses from multiple conversation arcs. This changes 
 - Speaker names and roles remain visible for every message.
 - The meeting status indicates whether the aunties are still talking.
 
+## Team Contributions
+
+- **Astel Jojy:** Team lead, product direction, experience design, and project coordination.
+- **Alphin George Joseph:** Frontend implementation, dialogue engine, maximalist UI, bilingual transcript flow, and deployment.
+
 ## License
 
 Prototype parody experience for TinkerHub Useless Projects and demonstration purposes.
+
+---
+
+Made with ❤️ at TinkerHub Useless Projects
+
+[![TinkerHub](https://img.shields.io/badge/TinkerHub-24?color=%23000000&link=https%3A%2F%2Fwww.tinkerhub.org)](https://www.tinkerhub.org/)
+[![Useless Projects 3.0](https://img.shields.io/badge/UselessProjects--26-26)](https://tinkerhub.org/events/1M8ORET9A1/useless-projects-3.0)
