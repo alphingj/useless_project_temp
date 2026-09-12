@@ -348,7 +348,7 @@ function App() {
           <span className="brand-mark">KS</span>
           <span>KudumbaSree <b>AI</b></span>
         </div>
-        <div className="topbar-note"><span className="live-dot" /> FICTIONAL MEETING SIMULATOR</div>
+        <div className="topbar-collage"><span className="topbar-note"><span className="live-dot" /> FICTIONAL MEETING SIMULATOR</span><span className="topbar-sticker">NO APPEAL</span><span className="topbar-counter">CASE 00{meetingId || 1}</span></div>
       </header>
 
       <section className="hero">
@@ -364,6 +364,7 @@ function App() {
             </div>
           </form>
           <p className="form-note">NO EVIDENCE · MAXIMUM ROAST · ZERO APPEAL</p>
+          <div className="hero-stickers"><span>AYYOOO!</span><span>FRIEND PARANJU</span><span>100% UNNECESSARY</span></div>
         </div>
 
         <div className="hero-scene" aria-label="Illustration of a Kudumbashree gossip meeting">
@@ -376,6 +377,9 @@ function App() {
           </div>
           <div className="speech-bubble bubble-one">Ayyo!</div>
           <div className="speech-bubble bubble-two">Sherikkum?</div>
+          <div className="scene-sticker scene-sticker-one">EVIDENCE<br /><b>0%</b></div>
+          <div className="scene-sticker scene-sticker-two">DRAMA<br /><b>MAX</b></div>
+          <div className="scene-note">ONE NAME<br />FIVE OPINIONS<br />ZERO PEACE</div>
           <div className="tea-cup">☕</div>
         </div>
       </section>
@@ -388,6 +392,7 @@ function App() {
 
         {!activeName ? <div className="empty-meeting"><span className="empty-number">00</span><p>Nothing is private once the plastic chairs are arranged.<br />Give the aunties a name. We will find the problem.</p></div> : <div className="meeting-layout">
           <div className="chat-area">
+            <div className="evidence-ribbon"><span>LIVE ROAST TRANSCRIPT</span><span>•</span><span>ALL CLAIMS FICTIONAL</span><span>•</span><span>SNACKS MAY BE REQUIRED</span></div>
             <div className="chat-columns">
             <div className="transcript chat-box">
               <div className="chat-box-heading"><strong>കുടുംബശ്രീ ഗോസിപ്പ്</strong><span>മലയാളം + English</span></div>
