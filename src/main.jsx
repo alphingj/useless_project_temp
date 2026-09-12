@@ -185,31 +185,31 @@ const meetingFlavor = () => ({
 })
 
 const connectedDialogue = [
-  (c) => ({ speaker: 0, text: `${c.opener}: ${c.name}-ne kurichu oru kaaryam parayatte... ${c.time} ${c.place}-il ${c.action}. Evidence illa, pakshe ee level confidence vechu njan parayum: ${c.name}-inte common sense innu leave-il aanu.` }),
-  (c) => ({ speaker: 1, text: `${c.reaction}, Lissy! ${c.name} ithu casual aayi cheythathaano? Ente calculation prakaram ${c.name}-inte decision-making oru wet biscuit pole aanu. ${c.theory}.` }),
-  (c) => ({ speaker: 2, text: `Ente oru friend paranjatha... friend-inte friend-inte neighbour aanu. Avarum ${c.name}-ne ${c.object} sambandhichu kandittundu. Same pattern alla mole, full season aanu.`, }),
-  (c) => ({ speaker: 3, text: `${c.reaction}?! ${c.name} ${c.object} veendum?! Daivame, ithu breaking news aanu! Oru tiny choice-ne ithra confidence-ode disaster aakkiyathu talent aanu.` }),
-  (c) => ({ speaker: 4, text: `Alla mole, roast mathi. ${c.name} ithu repeat cheyyathirikkan ${c.advice}. Njan parayunnath kettal mathi, allenkil next meeting-il homework konduvaranam.` }),
-  (c) => ({ speaker: 0, text: `Calm aakan pattilla, Remya. Puthiya clue undu: ${c.name} ${c.object}-ne nokkiyappol face-il expression undayirunnu. Athu expression alla, confidence-inte unpaid advertisement aanu.` }),
-  (c) => ({ speaker: 1, text: `${c.disagreement}! ${c.theory} aanu. Pakshe Lissy, ${c.name} ithu manage cheytha style kandittu future-il ${pick(detailWords.futures)} aakumennu thonnunnu. Qualification onnum venda, confidence mathi.` }),
-  (c) => ({ speaker: 2, text: `Ente friend paranjathil correction undu. ${c.name} ${c.object}-ne kandappol onnu thirinjunokki. Athu curiosity alla, swantham comedy kandittu reaction aanennu friend paranju.` }),
-  (c) => ({ speaker: 3, text: `Ayyo, thirinjunokkiyo?! First look, second look, pinne nammade meeting! ${c.name}-inte case oru full serial aanu; script weak, confidence strong.` }),
-  (c) => ({ speaker: 4, text: `${c.name}, ee case-il ninnu padikkanam. ${c.advice}. Pinne Saturday banana chips konduvaranam; at least snack department-ilenkilum performance kaanikku.` }),
-  (c) => ({ speaker: 0, text: `${c.derailment}, nammal ${c.name}-inte ${c.object} alle discuss cheythathu? Ippo banana chips ethi. Sathyam paranjaal ${c.name}-inte life-il oru topic polum straight aayi finish aakilla.` }),
+  (c) => ({ speaker: 0, text: `${c.opener}: ${c.name}-ne kurichu parayatte... ${c.time} ${c.place}-il ${c.action}. Evidence illa, pakshe ${c.name}-inte common sense innu casual leave eduthittundu ennu njan officially announce cheyyunnu.` }),
+  (c) => ({ speaker: 1, text: `${c.reaction}, Lissy! ${c.name} ithu normal aayi cheythathaano? Ente calculation prakaram ${c.name}-inte decision-making oru wet biscuit pole aanu: thottal pottum, nokkiyalum confidence.` }),
+  (c) => ({ speaker: 2, text: `Ente oru friend paranjatha... friend-inte friend-inte neighbour aanu. Avarum ${c.name}-ne ${c.object} sambandhichu kandittundu. Same pattern alla mole, full season aanu. Ithu roast alla, public service announcement aanu.` }),
+  (c) => ({ speaker: 3, text: `${c.reaction}?! ${c.name} ${c.object} veendum?! Daivame, oru tiny choice-ne ithra confidence-ode full disaster aakkiyathu talent aanu. Breaking news: common sense missing, attitude present!` }),
+  (c) => ({ speaker: 4, text: `Alla mole, roast mathi. ${c.name} ithu repeat cheyyathirikkan ${c.advice}. Njan parayunnath kettal mathi; allenkil next meeting-il homeworkum parent signature-um konduvaranam.` }),
+  (c) => ({ speaker: 0, text: `Calm aakan pattilla, Remya. Puthiya clue undu: ${c.name} ${c.object}-ne nokkiyappol oru expression undayirunnu. Athu expression alla, confidence-inte unpaid advertisement aanu.` }),
+  (c) => ({ speaker: 1, text: `${c.disagreement}! ${c.theory} aanu. Pakshe ${c.name} ithu manage cheytha style kandittu future-il ${pick(detailWords.futures)} aakumennu thonnunnu. Qualification venda; face-il confidence stamp undallo.` }),
+  (c) => ({ speaker: 2, text: `Ente friend paranjathil correction undu. ${c.name} ${c.object}-ne kandappol onnu thirinjunokki. Athu curiosity alla, swantham comedy kandittu reaction aanennu friend paranju. Even the object looked disappointed.` }),
+  (c) => ({ speaker: 3, text: `Ayyo, thirinjunokkiyo?! First look, second look, pinne nammade meeting! ${c.name}-inte case full serial aanu: script weak, roast strong, hero confused.` }),
+  (c) => ({ speaker: 4, text: `${c.name}, ee case-il ninnu padikkanam. ${c.advice}. Pinne Saturday banana chips konduvaranam; snack department-ilenkilum performance kaanikku. Life-il oru division pass aakate.` }),
+  (c) => ({ speaker: 0, text: `${c.derailment}, nammal ${c.name}-inte ${c.object} alle discuss cheythathu? Ippo banana chips ethi. Sathyam paranjaal ${c.name}-inte life-il oru topic polum straight aayi finish aakilla. Even the gossip has better direction.` }),
 ]
 
 const connectedDialogueMalayalam = [
-  (c) => ({ speaker: 0, text: `${c.openerMl}: ${c.name}-നെക്കുറിച്ച് ഒരു കാര്യം പറയട്ടെ... ${c.time} ${c.placeMl}-ൽ ${c.actionMl}. തെളിവില്ല, പക്ഷേ ഈ ലെവൽ കോൺഫിഡൻസ് കണ്ടിട്ട് പറയാം: ${c.name}-ന്റെ കോമൺ സെൻസ് ഇന്ന് ലീവിലാണ്.` }),
-  (c) => ({ speaker: 1, text: `${c.reactionMl}, ലിസ്സി! ${c.name} ഇത് casual ആയി ചെയ്തതാണോ? എന്റെ കണക്കുപ്രകാരം ${c.name}-ന്റെ decision-making നനഞ്ഞ ബിസ്കറ്റ് പോലെയാണ്. ${c.theoryMl}.` }),
-  (c) => ({ speaker: 2, text: `എന്റെ ഒരു ഫ്രണ്ട് പറഞ്ഞതാ... ഫ്രണ്ടിന്റെ ഫ്രണ്ടിന്റെ അയൽക്കാരിയാണ്. ${c.name}-നെ ${c.objectMl}-ന്റെ കാര്യത്തിൽ അവരും കണ്ടിട്ടുണ്ട്. Same pattern അല്ല മോളേ, full season ആണ്.` }),
-  (c) => ({ speaker: 3, text: `${c.reactionMl}?! ${c.name} വീണ്ടും ${c.objectMl}-ന്റെ അടുത്തോ?! ദൈവമേ, ഇത് ബ്രേക്കിംഗ് ന്യൂസ് ആണ്! ഒരു tiny choice-നെ ഇത്ര confidence-ോടെ disaster ആക്കിയത് talent ആണ്.` }),
-  (c) => ({ speaker: 4, text: `അല്ല മോളേ, roast മതി. ${c.name} ഇത് വീണ്ടും ചെയ്യാതിരിക്കാൻ ${c.adviceMl}. ഞാൻ പറയുന്നത് കേട്ടാൽ മതി; അല്ലെങ്കിൽ അടുത്ത മീറ്റിംഗിൽ homework കൊണ്ടുവരണം.` }),
-  (c) => ({ speaker: 0, text: `ശാന്തരാകാൻ പറ്റില്ല, രമ്യ. പുതിയ ക്ലൂ ഉണ്ട്: ${c.name} ${c.objectMl}-നെ നോക്കിയപ്പോൾ മുഖത്ത് ഒരു expression ഉണ്ടായിരുന്നു. അത് expression അല്ല, confidence-ന്റെ unpaid advertisement ആണ്.` }),
-  (c) => ({ speaker: 1, text: `${c.disagreementMl}! ${c.theoryMl} ആണ്. പക്ഷേ ലിസ്സി, ${c.name} ഇത് manage ചെയ്ത style കണ്ടിട്ട് ഭാവിയിൽ ${c.futureMl} ആകുമെന്ന് തോന്നുന്നു. Qualification ഒന്നും വേണ്ട, confidence മതി.` }),
-  (c) => ({ speaker: 2, text: `എന്റെ ഫ്രണ്ട് പറഞ്ഞതിൽ correction ഉണ്ട്. ${c.name} ${c.objectMl}-നെ കണ്ടപ്പോൾ ഒന്ന് തിരിഞ്ഞുനോക്കി. അത് curiosity അല്ല, സ്വന്തം comedy കണ്ടുള്ള reaction ആണെന്ന് ഫ്രണ്ട് പറഞ്ഞു.` }),
-  (c) => ({ speaker: 3, text: `അയ്യോ, തിരിഞ്ഞുനോക്കിയോ?! ആദ്യം ഒരു നോട്ടം, രണ്ടാമത് ഒരു നോട്ടം, പിന്നെ നമ്മുടെ മീറ്റിംഗ്! ${c.name}-ന്റെ കേസ് full serial ആണ്; script weak, confidence strong.` }),
-  (c) => ({ speaker: 4, text: `${c.name}, ഈ കേസിൽ നിന്ന് പഠിക്കണം. ${c.adviceMl}. പിന്നെ ശനിയാഴ്ച ബനാന ചിപ്സ് കൊണ്ടുവരണം; snack department-ിലെങ്കിലും performance കാണിക്കൂ.` }),
-  (c) => ({ speaker: 0, text: `${c.derailmentMl}, നമ്മൾ ${c.name}-ന്റെ ${c.objectMl} അല്ലേ ചർച്ച ചെയ്തത്? ഇപ്പോൾ ബനാന ചിപ്സും എത്തി. സത്യം പറഞ്ഞാൽ ${c.name}-ന്റെ life-ൽ ഒരു topic പോലും straight ആയി finish ആകില്ല.` }),
+  (c) => ({ speaker: 0, text: `${c.openerMl}: ${c.name}-നെക്കുറിച്ച് പറയട്ടെ... ${c.time} ${c.placeMl}-ൽ ${c.actionMl}. തെളിവില്ല, പക്ഷേ ഇത്ര കോൺഫിഡൻസ് കണ്ടിട്ട് പറയാം: ${c.name}-ന്റെ കോമൺ സെൻസ് ഇന്ന് casual leave-ലാണ്.` }),
+  (c) => ({ speaker: 1, text: `${c.reactionMl}, ലിസ്സി! ${c.name} ഇത് normal ആയി ചെയ്തതാണോ? എന്റെ കണക്കുപ്രകാരം ${c.name}-ന്റെ decision-making നനഞ്ഞ ബിസ്കറ്റ് പോലെയാണ്: തൊട്ടാൽ പൊട്ടും, നോക്കിയാലും confidence.` }),
+  (c) => ({ speaker: 2, text: `എന്റെ ഒരു ഫ്രണ്ട് പറഞ്ഞതാ... ഫ്രണ്ടിന്റെ ഫ്രണ്ടിന്റെ അയൽക്കാരിയാണ്. ${c.name}-നെ ${c.objectMl}-ന്റെ കാര്യത്തിൽ അവരും കണ്ടിട്ടുണ്ട്. Same pattern അല്ല മോളേ, full season ആണ്. ഇത് roast അല്ല, public service announcement ആണ്.` }),
+  (c) => ({ speaker: 3, text: `${c.reactionMl}?! ${c.name} വീണ്ടും ${c.objectMl}-ന്റെ അടുത്തോ?! ദൈവമേ, ഒരു tiny choice-നെ ഇത്ര confidence-ോടെ full disaster ആക്കിയത് talent ആണ്. Breaking news: common sense missing, attitude present!` }),
+  (c) => ({ speaker: 4, text: `അല്ല മോളേ, roast മതി. ${c.name} ഇത് വീണ്ടും ചെയ്യാതിരിക്കാൻ ${c.adviceMl}. ഞാൻ പറയുന്നത് കേട്ടാൽ മതി; അല്ലെങ്കിൽ അടുത്ത മീറ്റിംഗിൽ homework-ഉം parent signature-ഉം കൊണ്ടുവരണം.` }),
+  (c) => ({ speaker: 0, text: `ശാന്തരാകാൻ പറ്റില്ല, രമ്യ. പുതിയ ക്ലൂ ഉണ്ട്: ${c.name} ${c.objectMl}-നെ നോക്കിയപ്പോൾ ഒരു expression ഉണ്ടായിരുന്നു. അത് expression അല്ല, confidence-ന്റെ unpaid advertisement ആണ്.` }),
+  (c) => ({ speaker: 1, text: `${c.disagreementMl}! ${c.theoryMl} ആണ്. പക്ഷേ ${c.name} ഇത് manage ചെയ്ത style കണ്ടിട്ട് ഭാവിയിൽ ${c.futureMl} ആകുമെന്ന് തോന്നുന്നു. Qualification വേണ്ട; മുഖത്ത് confidence stamp ഉണ്ടല്ലോ.` }),
+  (c) => ({ speaker: 2, text: `എന്റെ ഫ്രണ്ട് പറഞ്ഞതിൽ correction ഉണ്ട്. ${c.name} ${c.objectMl}-നെ കണ്ടപ്പോൾ ഒന്ന് തിരിഞ്ഞുനോക്കി. അത് curiosity അല്ല, സ്വന്തം comedy കണ്ടുള്ള reaction ആണെന്ന് ഫ്രണ്ട് പറഞ്ഞു. Object പോലും disappointed ആയിരുന്നു.` }),
+  (c) => ({ speaker: 3, text: `അയ്യോ, തിരിഞ്ഞുനോക്കിയോ?! ആദ്യം ഒരു നോട്ടം, രണ്ടാമത് ഒരു നോട്ടം, പിന്നെ നമ്മുടെ മീറ്റിംഗ്! ${c.name}-ന്റെ കേസ് full serial ആണ്: script weak, roast strong, hero confused.` }),
+  (c) => ({ speaker: 4, text: `${c.name}, ഈ കേസിൽ നിന്ന് പഠിക്കണം. ${c.adviceMl}. പിന്നെ ശനിയാഴ്ച ബനാന ചിപ്സ് കൊണ്ടുവരണം; snack department-ിലെങ്കിലും performance കാണിക്കൂ. Life-ൽ ഒരു division എങ്കിലും pass ആകട്ടെ.` }),
+  (c) => ({ speaker: 0, text: `${c.derailmentMl}, നമ്മൾ ${c.name}-ന്റെ ${c.objectMl} അല്ലേ ചർച്ച ചെയ്തത്? ഇപ്പോൾ ബനാന ചിപ്സും എത്തി. സത്യം പറഞ്ഞാൽ ${c.name}-ന്റെ life-ൽ ഒരു topic പോലും straight ആയി finish ആകില്ല. Gossip-ന് പോലും ഇതിലും നല്ല direction ഉണ്ട്.` }),
 ]
 
 // Different meeting rhythms keep the aunties from repeating the same choreography.
@@ -243,11 +243,11 @@ const toMalayalamCase = (caseFile) => ({ ...caseFile, ...(malayalamCaseValues[ca
 const verdicts = (caseFile) => {
   const { name, object, theory, advice } = caseFile
   const conclusionPool = [
-    `${name}-ന്റെ ${object} incident ഒരു ordinary neighbourhood-ന് വളരെ mysterious ആണ്. Meeting unanimous അല്ല, പക്ഷേ എല്ലാവരും watch ചെയ്യാം എന്ന് സമ്മതിച്ചു.`,
-    `${name} ഒരു walking mystery novel ആണ്. ഓരോ chapter തുറക്കുമ്പോഴും suspense കൂടുന്നു.`,
-    `Meeting conclusion: ${name} harmless ആണ്, പക്ഷേ ${theory} എന്ന theory ഇപ്പോൾ official ആയി.`,
-    `${name}-ന്റെ life simple ആണ്, പക്ഷേ നമ്മുടെ interpretation complex ആണ്. ഇതാണ് real story.`,
-    `${name} ഓരോ ${object} incident-നും മുമ്പ് dramatic music request ചെയ്യണം. Community standards ആണ്.`,
+    `${name}-ന്റെ ${object} incident കണ്ടിട്ട് meeting-ന് ഒരു conclusion മാത്രം: common sense-ന് ഇവിടെ entry ഇല്ല.`,
+    `${name} ഒരു walking plot twist ആണ്. Chapter തുറക്കുമ്പോൾ story ഇല്ല, പക്ഷേ confidence full volume.`,
+    `Meeting conclusion: ${name} harmless ആണ്, പക്ഷേ ${theory} എന്ന theory-ക്ക് പോലും ${name}-ന്റെ decision-making സഹിക്കാനാകുന്നില്ല.`,
+    `${name}-ന്റെ life simple ആണ്; അതിനെ overanalyse ചെയ്ത് national issue ആക്കുന്നത് നമ്മളുടെ talent ആണ്.`,
+    `${name} ഓരോ ${object} incident-നും മുമ്പ് dramatic music request ചെയ്യണം. Normal entry ഇവർക്കു suit ആകുന്നില്ല.`,
   ]
   const advicePool = [
     [
@@ -277,11 +277,11 @@ const verdicts = (caseFile) => {
     ],
   ]
   const finalPool = [
-    `Final verdict: ${name} innocent ആണ്... പക്ഷേ ${object} സംബന്ധിച്ച് suspiciously interesting ആണ്!`,
-    `Final verdict: ${name} ഒരു soft blockbuster ആണ്. Neighbourhood mind-ൽ daily 8 PM premiere.`,
-    `Final verdict: ${name} calm ആയി നിൽക്കൂ, extra banana chips കയ്യിൽ വെച്ചോളൂ.`,
-    `Final verdict: ${name}-ന്റെ life normal ആണ്, പക്ഷേ ഈ ${object} case നമ്മുടെ director's cut ആണ്.`,
-    `Final verdict: ${name}-നെ gentle monitoring-നും frequent snacking-നും recommend ചെയ്യുന്നു.`,
+    `Final verdict: ${name} innocent ആണ്... പക്ഷേ ${object} കൈകാര്യം ചെയ്യുന്നത് കണ്ടാൽ innocence-ന് തന്നെ resignation കൊടുക്കണം.`,
+    `Final verdict: ${name} ഒരു soft blockbuster ആണ്. Plot ഇല്ല, suspense ഇല്ല, പക്ഷേ neighbourhood-ന് entertainment full.`,
+    `Final verdict: ${name} calm ആയി നിൽക്കൂ, extra banana chips കയ്യിൽ വെച്ചോളൂ. Personality repair പിന്നെ നോക്കാം.`,
+    `Final verdict: ${name}-ന്റെ life normal ആണ്, പക്ഷേ ഈ ${object} case നമ്മുടെ director's cut അല്ല, director-നെ തന്നെ confuse ചെയ്ത cut ആണ്.`,
+    `Final verdict: ${name}-നെ gentle monitoring-നും frequent snacking-നും recommend ചെയ്യുന്നു. Monitoring-ന് മാത്രം patience വേണം.`,
   ]
   return {
     conclusion: conclusionPool[Math.floor(Math.random() * conclusionPool.length)],

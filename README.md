@@ -46,7 +46,7 @@ The app keeps the roast connected while randomly changing the incident, conversa
   - English-letter Manglish.
 - Read the final **Kudumbashree Verdict** with an unnecessary conclusion, three absurd advice items, and a dramatic final roast.
 
-The roast is intentionally brutal about harmless habits, weak decisions, snack opinions, delayed replies, awkward timing, and overconfidence. It does not attack protected traits or invent realistic wrongdoing.
+The roast is intentionally brutal about harmless habits, weak decisions, snack opinions, delayed replies, awkward timing, and overconfidence. Expect wet-biscuit decision-making comparisons, common-sense complaints, confidence audits, and absolutely no appeal. It does not attack protected traits or invent realistic wrongdoing.
 
 ## The Aunties
 
@@ -70,7 +70,7 @@ The dialogue uses Malayalam written in Malayalam script with natural English cod
 - “Ee generation…”
 - “Daivame!”
 
-The humor targets behavior and absurd conclusions, not a person’s identity or real life.
+The humor targets behavior and absurd conclusions, not a person’s identity or real life. Maximum roast means theatrical humiliation of silly choices, never realistic harm.
 
 ## Safety And Parody
 
